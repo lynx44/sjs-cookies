@@ -2,10 +2,10 @@ organization := "com.standardedge"
 
 name := "cookies"
 
-version := "1.0"
+version := "0.1-SNAPSHOT"
 
 scalaVersion := "2.11.6"
 
-jsDependencies += ProvidedJS / "cookies.min.js"
+jsDependencies += ProvidedJS / "cookies.js"
 
 lazy val root = (project in file(".")).enablePlugins(ScalaJSPlugin)
